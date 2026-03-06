@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabela Semantica</title>
+    <link rel="stylesheet" href="estilogerotti.css">   
+</head>
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Loja de perifericos para computador</h1>
+        </header>
+	<main>
+        <h2>Lista de produtos</h2>
+        <table>
+            <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Categoria</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                    </tr>
+            </thead>
+                        <tbody>
+                            <tr>
+                                <td>001</td>
+                                <td>Processador</td>    
+                                <td>I5 12400f</td>
+                                <td>R$ 1.083,91</td>
+                            </tr>
+                            <tr>
+                                <td>002</td>
+                                <td>Placa de video</td>    
+                                <td>RTX 5060 TI</td>
+                                <td>R$ 4.118,39</td>
+                            </tr>
+                            <tr>
+                                <td>003</td>
+                                <td>Placa mãe</td>    
+                                <td>MSI B860M Gaming Plus</td>
+                                <td>R$ 1.621,00</td>
+                            </tr>
+                        </tbody>
+                    </main>
+        </table>
+    <footer>
+        Loja de Hardcore LTDA
+        <address>
+            Caso do carai, 69
+        </address>
+    </footer>
+</div>
+</body>
+</html>
